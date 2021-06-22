@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/private/dotnet/blazorPeliculas/Client/blazorPeliculas.Client.csproj": {}
+  },
+  "projects": {
+    "/home/private/dotnet/blazorPeliculas/Client/blazorPeliculas.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/private/dotnet/blazorPeliculas/Client/blazorPeliculas.Client.csproj",
+        "projectName": "blazorPeliculas.Client",
+        "projectPath": "/home/private/dotnet/blazorPeliculas/Client/blazorPeliculas.Client.csproj",
+        "packagesPath": "/home/private/.nuget/packages/",
+        "outputPath": "/home/private/dotnet/blazorPeliculas/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/private/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/private/dotnet/blazorPeliculas/Shared/blazorPeliculas.Shared.csproj": {
+                "projectPath": "/home/private/dotnet/blazorPeliculas/Shared/blazorPeliculas.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.7, 5.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/private/dotnet/blazorPeliculas/Shared/blazorPeliculas.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/private/dotnet/blazorPeliculas/Shared/blazorPeliculas.Shared.csproj",
+        "projectName": "blazorPeliculas.Shared",
+        "projectPath": "/home/private/dotnet/blazorPeliculas/Shared/blazorPeliculas.Shared.csproj",
+        "packagesPath": "/home/private/.nuget/packages/",
+        "outputPath": "/home/private/dotnet/blazorPeliculas/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/private/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
